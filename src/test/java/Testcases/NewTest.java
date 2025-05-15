@@ -16,7 +16,6 @@ public class NewTest {
 
 	ChromeDriver driver=new ChromeDriver(options);
 	driver.get("https://chatgpt.com/");
-	Thread.sleep(1000);
 	driver.close();  
   }
   
