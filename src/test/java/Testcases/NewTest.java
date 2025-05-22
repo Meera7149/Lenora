@@ -18,7 +18,8 @@ public class NewTest {
 	Thread.sleep(1000);
 	driver.get("https://chatgpt.com/");
 	Thread.sleep(1000);
-	driver.close();  
+	driver.close();
+	//Lead added the code
   }
   
 }
