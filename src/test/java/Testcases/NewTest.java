@@ -21,7 +21,7 @@ public class NewTest {
 	driver.close();
 
 	//Lead added the code
-	//Tester added the codes
+	//Tester added the codes new
 
   }
   
