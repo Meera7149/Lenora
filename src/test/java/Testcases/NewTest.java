@@ -1,5 +1,6 @@
 package Testcases;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.Test;
@@ -16,7 +17,9 @@ public class NewTest {
 
 	ChromeDriver driver=new ChromeDriver(options);
 	Thread.sleep(1000);
-	driver.get("test");
+	driver.get("http://100.100.60.116/srx/login/");
+	driver.findElement(By.xpath("//*[@id='sign_in_username_email']")).sendKeys("warren");
+	driver.findElement(By.xpath("//*[@id='sign_in_password']")).sendKeys("warren");
 	Thread.sleep(1000);
 	driver.close();
   }
